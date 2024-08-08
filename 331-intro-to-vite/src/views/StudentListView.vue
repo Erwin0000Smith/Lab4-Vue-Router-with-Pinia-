@@ -20,7 +20,7 @@ onMounted(() => {
 <template>
   <h1></h1>
   <!--new element-->
-  <div class="Student">
+  <div class="students">
     <StudentCard v-for="student in students" :key="student.id" :student="student"></StudentCard>
   </div>
 </template>
